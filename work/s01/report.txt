@@ -1,23 +1,28 @@
 Report:
 Did you before know about the techniques Git, GitHub, Markdown and/or GitHub Pages?
-    I used git hub before, hoever i did not know about Markdown and GitHub Pages.
+Answer:
+    I used git hub before, however i did not know about Markdown or GitHub Pages.
 
 Have you ever created websites before?
+Answer:
     I have never created websites before. I always wanted to learn how to create good websites
-    however i never had the time.
+    sadly, I never had the time.
 
 Briefly explain your experience and knowledge of web application development.
-    So far i have worked with developing android moiblie applications 
-    and desktop application.
-    WE did not have in  our programme "software development", courses related'
+Answer:
+    So far i have worked with developing android mobile applications 
+    and desktop application using java.
+    WE did not have in  our programme "software development", courses related
     to web applications. As such my experience and knowledge with web development
-    is very low. I am very exicted to have this course. As i believe i will 
-    gain the basic knowledge that will help me to study more.
+    is very low. I am very exicted to have this course. With this course I
+    believe I will gain  the basic knowledge  needed to make a good dynamic
+    website.
 
 What is your TIL for this course section
-    In this course section i have learned about forking. It is the first time i have used
+Answer:
+    In this course section i have learned about forking. It is the first time I have used
     the fork tool.
     I have learnt how to uptade a forked repo.
     I have learnt how to set up Git pages.
-    i have leant to use Visual studio.
-    i jave learnt to create links in html.
+    I have leant to use Visual studio.
+    I have learnt to create links in html.
