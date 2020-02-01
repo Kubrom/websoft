@@ -1,0 +1,10 @@
+.kristinastadLogo {
+  widows: 256px;
+  height: 256px;
+  border: 1px solid black;
+  background-image: url(../img/kristianstad-municipality.png);
+  background-size: 256px;
+  position: absolute;
+  top: 100px;
+  left: 500px;
+}
