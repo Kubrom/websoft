@@ -1,42 +1,41 @@
 document.getElementById("italyLink").onclick = function() {
-  document.getElementById("color1").style.backgroundColor = "green";
-  document.getElementById("color2").style.backgroundColor = "white";
-  document.getElementById("color3").style.backgroundColor = "red";
-  document.getElementById("image").style.display = "block";
-  document.getElementById("image").style.opacity = "1";
+  makeFlagDisapear();
+
+  createFlag("green", "white", "red");
 };
 
 document.getElementById("franceLink").onclick = function() {
-  document.getElementById("color1").style.backgroundColor = "blue";
-  document.getElementById("color2").style.backgroundColor = "white";
-  document.getElementById("color3").style.backgroundColor = "red";
-  document.getElementById("image").style.display = "block";
-  document.getElementById("image").style.opacity = "1";
+  makeFlagDisapear();
+
+  createFlag("blue", "white", "red");
 };
 
 document.getElementById("guineaLink").onclick = function() {
-  document.getElementById("color1").style.backgroundColor = "red";
-  document.getElementById("color2").style.backgroundColor = "yellow";
-  document.getElementById("color3").style.backgroundColor = "green";
-  document.getElementById("image").style.display = "block";
-  document.getElementById("image").style.opacity = "1";
+  makeFlagDisapear();
+  createFlag("red", "yellow", "green");
 };
 document.getElementById("belgiumLink").onclick = function() {
-  document.getElementById("color1").style.backgroundColor = "black";
-  document.getElementById("color2").style.backgroundColor = "yellow";
-  document.getElementById("color3").style.backgroundColor = "red";
-  document.getElementById("image").style.display = "block";
-  document.getElementById("image").style.opacity = "1";
+  makeFlagDisapear();
+  createFlag("black", "yellow", "red");
 };
 document.getElementById("nigeriaLink").onclick = function() {
-  document.getElementById("color1").style.backgroundColor = "green";
-  document.getElementById("color2").style.backgroundColor = "white";
-  document.getElementById("color3").style.backgroundColor = "green";
-  document.getElementById("image").style.display = "block";
-  document.getElementById("image").style.opacity = "1";
+  makeFlagDisapear();
+  createFlag("green", "white", "green");
 };
 
 document.getElementById("image").onclick = function() {
-  document.getElementById("image").style.opacity = "0";
-  document.getElementById("image").style.display = "none";
+  makeFlagDisapear();
 };
+
+function createFlag(color1, color2, color3) {
+  document.getElementById("image").style.opacity = "1";
+  document.getElementById("image").style.display = "block";
+  document.getElementById("color1").style.backgroundColor = color1;
+  document.getElementById("color2").style.backgroundColor = color2;
+  document.getElementById("color3").style.backgroundColor = color3;
+}
+
+function makeFlagDisapear() {
+  document.getElementById("image").style.opacity = "1";
+  document.getElementById("image").style.display = "none";
+}
