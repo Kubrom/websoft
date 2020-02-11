@@ -39,10 +39,10 @@
             var cell1 = row.insertCell(1);
             var cell2 = row.insertCell(2);
             var cell3 = row.insertCell(3);
-            cell.innerHTML = "Skolenhetskod";
-            cell1.innerHTML = "Skolenhetsnamn";
-            cell2.innerHTML = "Kommunkod";
-            cell3.innerHTML = "PeOrgNr";
+            cell.innerHTML = "<strong>School Code</strong>";
+            cell1.innerHTML = "<strong>School Name</strong>";
+            cell2.innerHTML = "<strong>Municipality Code</strong>";
+            cell3.innerHTML = "<strong>Organization Number</strong>";
 
             for (var i = 0; jsonObj.Skolenheter.length; i++) {
               var school = jsonObj.Skolenheter[i];
