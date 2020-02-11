@@ -1,65 +1,63 @@
-/**
- * @author Kubrom Mulugheta
- */
-"use strict";
-function addKommun() {
-  //ProxyUrl used to avoid CORS
-  const proxyUrl = "https://cors-anywhere.herokuapp.com/";
-  const url = "https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun";
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      var response = this.responseText;
+// http://api.scb.se/UF0109/v2/
 
-      var json = JSON.parse(response);
-      var jsonKommuner = json.Kommuner;
-      var kommunCount = jsonKommuner.length;
-      daySelect = document.getElementById("kommunForm");
-      for (var i = 0; i < kommunCount; i++) {
-        daySelect.options[i] = new Option(
-          jsonKommuner[i].Namn + " " + jsonKommuner[i].Kommunkod,
-          jsonKommuner[i].Kommunkod
-        );
-      }
-    }
-  };
-  xmlhttp.open("GET", proxyUrl + url, true);
-  xmlhttp.send();
-}
+(function() {
+  var municipality = document.getElementById("municipality");
+  var schoolTable = document.getElementById("schoolTable");
 
-function showSchools(KommunkodValue) {
-  //ProxyUrl used to avoid CORS
-  const proxyUrl = "https://cors-anywhere.herokuapp.com/";
-  const url =
-    "https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/" +
-    KommunkodValue;
+  fetch("data/kommunKoder.json")
+    .then(res => {
+      return res.json();
+    })
+    .then(jsonObj => {
+      //   console.log(jsonObj)
 
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      var response = this.responseText;
-      var json = JSON.parse(response);
-      var jsonSchool = json.Skolenheter;
-      var schoolCount = jsonSchool.length;
-      var table =
-        "<tr><th>Kommunkod</th><th>PeOrgNr</th><th>Skolenhetskod</th><th>Skolenhetsnamn</th></tr>";
-      var i;
-      for (i = 0; i < schoolCount; i++) {
-        table +=
-          "<tr><td>" +
-          jsonSchool[i].Kommunkod +
-          "</td><td>" +
-          jsonSchool[i].PeOrgNr +
-          "</td><td>" +
-          jsonSchool[i].Skolenhetskod +
-          "</td><td>" +
-          jsonSchool[i].Skolenhetsnamn;
-        ("</td></tr>");
+      for (var i = 0; i < jsonObj.Kommun.length; i++) {
+        var opt = document.createElement("option");
+        var kommun = jsonObj.Kommun[i];
+        opt.appendChild(document.createTextNode(kommun.Namn));
+        opt.value = kommun.Kommunkod;
+        kommunNr = kommun.Kommunkod;
+        municipality.appendChild(opt);
       }
 
-      document.getElementById("demo").innerHTML = table;
-    }
-  };
-  xmlhttp.open("GET", proxyUrl + url, true);
-  xmlhttp.send();
-}
+      municipality.addEventListener("change", function() {
+        var kommunNr = municipality.options[municipality.selectedIndex].value;
+        fetch("data/" + kommunNr + ".json")
+          .then(res => {
+            return res.json();
+          })
+          .then(jsonObj => {
+            //  console.log(jsonObj)
+
+            var rowCount = schoolTable.rows.length;
+            for (var x = rowCount - 1; x >= 0; x--) {
+              schoolTable.deleteRow(x);
+            }
+
+            var row = schoolTable.insertRow(0);
+            var cell = row.insertCell(0);
+            var cell1 = row.insertCell(1);
+            var cell2 = row.insertCell(2);
+            var cell3 = row.insertCell(3);
+            cell.innerHTML = "Skolenhetskod";
+            cell1.innerHTML = "Skolenhetsnamn";
+            cell2.innerHTML = "Kommunkod";
+            cell3.innerHTML = "PeOrgNr";
+
+            for (var i = 0; jsonObj.Skolenheter.length; i++) {
+              var school = jsonObj.Skolenheter[i];
+              row = schoolTable.insertRow(i + 1);
+              cell = row.insertCell(0);
+              cell1 = row.insertCell(1);
+              cell2 = row.insertCell(2);
+              cell3 = row.insertCell(3);
+
+              cell.innerHTML = school.Skolenhetskod;
+              cell1.innerHTML = school.Skolenhetsnamn;
+              cell2.innerHTML = school.Kommunkod;
+              cell3.innerHTML = school.PeOrgNr;
+            }
+          });
+      });
+    });
+})();
