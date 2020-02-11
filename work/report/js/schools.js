@@ -9,7 +9,7 @@
       return res.json();
     })
     .then(jsonObj => {
-      //   console.log(jsonObj)
+      console.log(jsonObj);
 
       for (var i = 0; i < jsonObj.Kommun.length; i++) {
         var opt = document.createElement("option");

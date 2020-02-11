@@ -1,7 +1,7 @@
 {
   "Uttagsdatum": "2020-02-10T18:35:06.061609+01:00",
   "Fotnot": "",
-  "Kommuner": [
+  "Kommun": [
     { "Kommunkod": "0764", "Namn": "Alvesta" },
 
     { "Kommunkod": "1290", "Namn": "Kristianstad" },
