@@ -29,13 +29,13 @@ document.getElementById("image").onclick = function() {
 
 function createFlag(color1, color2, color3) {
   document.getElementById("image").style.opacity = "1";
-  document.getElementById("image").style.display = "block";
+  document.getElementById("image").style.visibility = "visible";
   document.getElementById("color1").style.backgroundColor = color1;
   document.getElementById("color2").style.backgroundColor = color2;
   document.getElementById("color3").style.backgroundColor = color3;
 }
 
 function makeFlagDisapear() {
-  document.getElementById("image").style.opacity = "1";
-  document.getElementById("image").style.display = "none";
+  document.getElementById("image").style.opacity = "0";
+  document.getElementById("image").style.visibility = "hidden";
 }
