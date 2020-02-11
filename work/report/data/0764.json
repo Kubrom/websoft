@@ -1,0 +1,108 @@
+{
+  "Uttagsdatum": "2020-02-10T19:17:37.4107186+01:00",
+  "Fotnot": "",
+  "Skolenheter": [
+    {
+      "Skolenhetskod": "12019347",
+      "Skolenhetsnamn": "Grimslövs folkhögskola SFI",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2321000065"
+    },
+    {
+      "Skolenhetskod": "16839212",
+      "Skolenhetsnamn": "Alvesta gymnasiesärskola",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2120000639"
+    },
+    {
+      "Skolenhetskod": "18578155",
+      "Skolenhetsnamn": "Alvesta grundsärskola",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2120000639"
+    },
+    {
+      "Skolenhetskod": "24580947",
+      "Skolenhetsnamn": "Allbo lärcenter, SFI",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2120000639"
+    },
+    {
+      "Skolenhetskod": "36322706",
+      "Skolenhetsnamn": "Hjortsbergaskolan",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2120000639"
+    },
+    {
+      "Skolenhetskod": "49668978",
+      "Skolenhetsnamn": "Lärvux",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2120000639"
+    },
+    {
+      "Skolenhetskod": "55218290",
+      "Skolenhetsnamn": "Skatelövsskolan",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2120000639"
+    },
+    {
+      "Skolenhetskod": "59234401",
+      "Skolenhetsnamn": "Prästängsskolan",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2120000639"
+    },
+    {
+      "Skolenhetskod": "66644840",
+      "Skolenhetsnamn": "Grönkullaskolan ",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2120000639"
+    },
+    {
+      "Skolenhetskod": "67183147",
+      "Skolenhetsnamn": "Hagaskolan",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2120000639"
+    },
+    {
+      "Skolenhetskod": "69699568",
+      "Skolenhetsnamn": "Mohedaskolan",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2120000639"
+    },
+    {
+      "Skolenhetskod": "75459583",
+      "Skolenhetsnamn": "Allbo Lärcenter gymnasium",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2120000639"
+    },
+    {
+      "Skolenhetskod": "79378495",
+      "Skolenhetsnamn": "Friskolan Kronobergshed",
+      "Kommunkod": "0764",
+      "PeOrgNr": "7696124531"
+    },
+    {
+      "Skolenhetskod": "82158337",
+      "Skolenhetsnamn": "Allbo lärcenter, komvux",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2120000639"
+    },
+    {
+      "Skolenhetskod": "88176175",
+      "Skolenhetsnamn": "Vislandaskolan",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2120000639"
+    },
+    {
+      "Skolenhetskod": "91413402",
+      "Skolenhetsnamn": "Alvesta Resursskola",
+      "Kommunkod": "0764",
+      "PeOrgNr": "2120000639"
+    },
+    {
+      "Skolenhetskod": "97506301",
+      "Skolenhetsnamn": "Byskolan Blenda",
+      "Kommunkod": "0764",
+      "PeOrgNr": "8024228663"
+    }
+  ]
+}

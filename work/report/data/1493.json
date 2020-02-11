@@ -1,0 +1,120 @@
+{
+  "Uttagsdatum": "2020-02-10T19:29:14.4597554+01:00",
+  "Fotnot": "",
+  "Skolenheter": [
+    {
+      "Skolenhetskod": "12357670",
+      "Skolenhetsnamn": "Tidavads skola",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    },
+    {
+      "Skolenhetskod": "13006857",
+      "Skolenhetsnamn": "Vadsbogymnasiet",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    },
+    {
+      "Skolenhetskod": "17581579",
+      "Skolenhetsnamn": "Högelidsskolan F-6",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    },
+    {
+      "Skolenhetskod": "26296411",
+      "Skolenhetsnamn": "Prismaskolan",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    },
+    {
+      "Skolenhetskod": "28646634",
+      "Skolenhetsnamn": "Lillängsskolan",
+      "Kommunkod": "1493",
+      "PeOrgNr": "5568020852"
+    },
+    {
+      "Skolenhetskod": "29289355",
+      "Skolenhetsnamn": "Ekhamraskolan",
+      "Kommunkod": "1493",
+      "PeOrgNr": "5568020852"
+    },
+    {
+      "Skolenhetskod": "30467029",
+      "Skolenhetsnamn": "Unicaskolan",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    },
+    {
+      "Skolenhetskod": "32737588",
+      "Skolenhetsnamn": "Högelidsskolan särskola",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    },
+    {
+      "Skolenhetskod": "48016437",
+      "Skolenhetsnamn": "Tunaholmsskolan",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    },
+    {
+      "Skolenhetskod": "48056070",
+      "Skolenhetsnamn": "Torsö Skärgårdsskola",
+      "Kommunkod": "1493",
+      "PeOrgNr": "7696198865"
+    },
+    {
+      "Skolenhetskod": "48214042",
+      "Skolenhetsnamn": "Vuxenutbildning",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    },
+    {
+      "Skolenhetskod": "55024806",
+      "Skolenhetsnamn": "Hasslerörs skola",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    },
+    {
+      "Skolenhetskod": "57260659",
+      "Skolenhetsnamn": "Lyrestads skola",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    },
+    {
+      "Skolenhetskod": "62694008",
+      "Skolenhetsnamn": "Högelidsskolan 7-9",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    },
+    {
+      "Skolenhetskod": "69164983",
+      "Skolenhetsnamn": "Ullervads skola",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    },
+    {
+      "Skolenhetskod": "71484023",
+      "Skolenhetsnamn": "Kvarnstenens skola",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    },
+    {
+      "Skolenhetskod": "76007769",
+      "Skolenhetsnamn": "Vänergymnasiet",
+      "Kommunkod": "1493",
+      "PeOrgNr": "5566269014"
+    },
+    {
+      "Skolenhetskod": "86093284",
+      "Skolenhetsnamn": "Central Insamlingsenhet",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    },
+    {
+      "Skolenhetskod": "99243321",
+      "Skolenhetsnamn": "Grangärdets skola",
+      "Kommunkod": "1493",
+      "PeOrgNr": "2120001686"
+    }
+  ]
+}
