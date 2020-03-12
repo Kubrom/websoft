@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>
+          Presentation of my self in the course Software development for the web
+        </title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="icon" href="favicon.ico" />
+    </head>
+
+    <body>
+        <header class="header">
+            <nav>
+              <a href="me.html">Me</a> | <a href="report.html">Report</a> |
+              <a href="about.html">About</a> | <a href="schools.html">Schools</a> |<a
+                href="flag.html"
+                >Flags</a
+              >
+              |<a href="../../index.html">Assigments</a>
+            </nav>
+          </header>
+
+          <h1>Lotto draft: </h1>
+
+<p>
+    <table>
+        <tr>
+            <th>1.</th>
+            <th>2.</th>
+            <th>3.</th>
+            <th>4.</th>
+            <th>5.</th>
+            <th>6.</th>
+            <th>7.</th>
+        </tr>
+        <tr>
+            <% for (var i = 0; i < draft.length ; i++) { %>
+          <%if (draft[i] == guess[i]){ %>
+              <th style= "color: green"> <%=draft[i]%></th> 
+              <%}else { %>
+                <th style= "color: red"> <%=draft[i]%></th> 
+                <% } %>
+          <% } %>
+        </tr>
+    </table>
+</p>
+
+<h1>Your guess: </h1>
+
+
+<p>
+    <table>
+        <table>
+            <tr>
+                <th>1.</th>
+                <th>2.</th>
+                <th>3.</th>
+                <th>4.</th>
+                <th>5.</th>
+                <th>6.</th>
+                <th>7.</th>
+            </tr>
+
+            <tr>
+                <% for (var i = 0; i < guess.length ; i++) { %>
+              <%if (guess[i] == draft[i]){ %>
+                  <th style= "color: green"> <%=guess[i]%></th> 
+                  <%}else { %>
+                    <th style= "color: red"> <%=guess[i]%></th> 
+                    <% } %>
+              <% } %>
+            </tr>
+        </table>
+    </table>
+</p>
+
+<h1>Number of correct guesses: <%=correct %></h1>
+
+<footer>
+    <hr />
+
+    <table align="center" cellspacing="40">
+      <tr>
+        <td>
+          <a href="https://github.com/Kubrom">
+            <img src="img/github-logo.png" width="50px" />
+          </a>
+        </td>
+        <td>
+          <a href="https://www.linkedin.com/in/kubrom-mulugheta-14b5b5113/">
+            <img src="img/linkedin-logo.png" width="50px" />
+          </a>
+        </td>
+        <td>
+          <a href="https://twitter.com/bahgero">
+            <img src="img/twitter-logo.png" width="50px" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="https://www.facebook.com/profile.php?id=565917511&ref=bookmarks"
+          >
+            <img src="img/facebook-logo.png" width="50px" />
+          </a>
+        </td>
+
+        <td>
+          <a href="https://www.instagram.com/lij_kbrom/">
+            <img src="img/instagram.png" width="50px" />
+          </a>
+        </td>
+      </tr>
+    </table>
+  </footer>
+
+    </body>
+</html>
+
+
