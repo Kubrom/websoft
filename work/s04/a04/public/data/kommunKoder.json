@@ -1,0 +1,19 @@
+{
+  "Uttagsdatum": "2020-02-10T18:35:06.061609+01:00",
+  "Fotnot": "",
+  "Kommun": [
+    { "Kommunkod": "0764", "Namn": "Alvesta" },
+
+    { "Kommunkod": "1290", "Namn": "Kristianstad" },
+
+    { "Kommunkod": "1280", "Namn": "Malmö" },
+
+    { "Kommunkod": "1493", "Namn": "Mariestad" },
+
+    { "Kommunkod": "0581", "Namn": "Norrköping" },
+
+    { "Kommunkod": "0480", "Namn": "Nyköping" },
+
+    { "Kommunkod": "1286", "Namn": "Ystad" }
+  ]
+}

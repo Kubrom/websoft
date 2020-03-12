@@ -1,0 +1,132 @@
+/*
+ * Comments are written as C++ style. 
+ */
+html {
+  overflow-y: scroll;
+}
+
+body {
+  margin: 8px auto;
+  background: #fff;
+  width: 700px;
+  font-family: "Roboto";
+  font-size: medium;
+}
+header {
+  background: orange;
+  color: #fff;
+  padding: 12px;
+}
+footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: green;
+}
+a:visited {
+  color: purple;
+}
+#shape {
+  width: 80px;
+  height: 100px;
+  background-image: url(../img/kristiansta-logo.png);
+  background-size: 80px;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+}
+.container {
+  position: relative;
+}
+.flag {
+  width: 225px;
+  height: 175px;
+  margin: 50px;
+  border-style: solid;
+  border-width: 1px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  visibility: hidden;
+  transition: all 2s ease-in-out;
+}
+
+.part {
+  width: 75px;
+  height: 175px;
+  float: left;
+}
+
+.vertical-menu {
+  width: 200px;
+  margin-top: 50px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.activeC {
+  background-color: #ffa500;
+  color: white;
+}
+
+.collapsible {
+  background-color: lightslategray;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-top: 2px;
+  text-align: left;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #ffa500;
+}
+
+.collapsible:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+#reportBody {
+  margin-top: 50px;
+}

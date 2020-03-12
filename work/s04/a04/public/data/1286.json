@@ -1,0 +1,204 @@
+{
+  "Uttagsdatum": "2020-02-10T19:21:22.1218975+01:00",
+  "Fotnot": "",
+  "Skolenheter": [
+    {
+      "Skolenhetskod": "10475419",
+      "Skolenhetsnamn": "Backaskolan",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "12301490",
+      "Skolenhetsnamn": "Blekeskolan",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "15218026",
+      "Skolenhetsnamn": "VUX_Externt",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "15399530",
+      "Skolenhetsnamn": "Östra skolan",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "16161214",
+      "Skolenhetsnamn": "Ystad Gymnasium, område 4",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "25834038",
+      "Skolenhetsnamn": "Villa Sjöstadens Montessori",
+      "Kommunkod": "1286",
+      "PeOrgNr": "5567874945"
+    },
+    {
+      "Skolenhetskod": "25847233",
+      "Skolenhetsnamn": "Ystad Gymnasium, område 1",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "27460859",
+      "Skolenhetsnamn": "Edvinshemsskolan grundsärskola",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "31313221",
+      "Skolenhetsnamn": "Edvinshemsskolan",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "31380193",
+      "Skolenhetsnamn": "Fria Läroverken i Ystad",
+      "Kommunkod": "1286",
+      "PeOrgNr": "5569306979"
+    },
+    {
+      "Skolenhetskod": "37706381",
+      "Skolenhetsnamn": "Modersmålsenheten",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "37803845",
+      "Skolenhetsnamn": "Edvinshusskolan",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "44841058",
+      "Skolenhetsnamn": "Löderups skola",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "45170446",
+      "Skolenhetsnamn": "Hedeskoga skola",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "47680366",
+      "Skolenhetsnamn": "Forum Ystad särvux",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "48813389",
+      "Skolenhetsnamn": "Änga/Västervångskolan",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "50260885",
+      "Skolenhetsnamn": "Mottagningsskolan i Ystad",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "53011246",
+      "Skolenhetsnamn": "Villa Montessori Ystad",
+      "Kommunkod": "1286",
+      "PeOrgNr": "5567874945"
+    },
+    {
+      "Skolenhetskod": "54172365",
+      "Skolenhetsnamn": "Stora Herrestadsskola",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "54436997",
+      "Skolenhetsnamn": "Västerportskolan",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "58443114",
+      "Skolenhetsnamn": "Central Insamlingsenhet",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "58980145",
+      "Skolenhetsnamn": "Kunskapsskolan Ystad",
+      "Kommunkod": "1286",
+      "PeOrgNr": "5565661815"
+    },
+    {
+      "Skolenhetskod": "62612992",
+      "Skolenhetsnamn": "Ystad Gymnasium, område 2",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "67247370",
+      "Skolenhetsnamn": "Svarteskolan",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "68391076",
+      "Skolenhetsnamn": "Köpingebro skola",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "76322246",
+      "Skolenhetsnamn": "VUX_Internt",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "77838140",
+      "Skolenhetsnamn": "Sövestads skola",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "85485803",
+      "Skolenhetsnamn": "Ystad Gymnasium, område 3",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "89384947",
+      "Skolenhetsnamn": "Ystad Gymnasium, Gymnasiesärskolan",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "89680009",
+      "Skolenhetsnamn": "Norreportskolan",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "90290154",
+      "Skolenhetsnamn": "Praktiska Gymnasiet Ystad",
+      "Kommunkod": "1286",
+      "PeOrgNr": "5562575786"
+    },
+    {
+      "Skolenhetskod": "92816527",
+      "Skolenhetsnamn": "Ystad Gymnasium, område 5",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    },
+    {
+      "Skolenhetskod": "98387869",
+      "Skolenhetsnamn": "Ystad Gymnasium, område 6",
+      "Kommunkod": "1286",
+      "PeOrgNr": "2120001181"
+    }
+  ]
+}
