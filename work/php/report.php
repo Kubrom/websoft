@@ -222,7 +222,7 @@
           satisfied with my results</p>
           <p><strong>What is your TIL for this course section? </strong></p>
           <p>I have learnt a lot in terms I did not have any previuos knowledge
-          about php. I also refreshed my knowledge on MYSQL./p>
+          about php. I also refreshed my knowledge on MYSQL.</p>
         </div>
         <button type="button" class="collapsible">Report A06</button>
         <div class="content">
