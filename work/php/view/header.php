@@ -10,8 +10,8 @@
   <body>
     <header class="header">
       <nav>
-        <a href="me.html">Me</a> | <a href="report.html">Report</a> |
-        <a href="about.html">About</a> 
+        <a href="me.php">Me</a> | <a href="report.php">Report</a> |
+        <a href="about.php">About</a> 
     
       </nav>
     </header>
