@@ -15,7 +15,7 @@ namespace WebApplication.Controllers
 {
     public class HomeController : Controller
     {
-        List<Account> accounts = JsonConvert.DeserializeObject<List<Account>>(System.IO.File.ReadAllText(@"c:\account.json"));
+        List<Account> accounts = JsonConvert.DeserializeObject<List<Account>>(System.IO.File.ReadAllText(@"account.json"));
 
 
 
@@ -111,7 +111,7 @@ namespace WebApplication.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Number,Balance,Label,Owner")] Account account)
         {
-            var initialJson = System.IO.File.ReadAllText(@"c:\account.json");
+            var initialJson = System.IO.File.ReadAllText(@"account.json");
             var array = JArray.Parse(initialJson);
 
             var itemToAdd = new JObject();
@@ -122,7 +122,7 @@ namespace WebApplication.Controllers
             array.Add(itemToAdd);
 
             var jsonToOutput = JsonConvert.SerializeObject(array, Formatting.Indented);
-            System.IO.File.WriteAllText(@"c:\account.json", jsonToOutput);
+            System.IO.File.WriteAllText(@"account.json", jsonToOutput);
 
 
 

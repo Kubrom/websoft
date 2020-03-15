@@ -2,7 +2,7 @@
 require 'db.php';
 
 $id = $_GET['id'];
-$sql = "SELECT * FROM memebrs WHERE id = :id";
+$sql = "SELECT * FROM members WHERE id = :id";
 $statement = $connection-> prepare($sql);
 $statement-> execute([':id' => $id]);
 $member = $statement -> fetch(PDO::FETCH_OBJ);
@@ -15,13 +15,13 @@ if(isset($_POST['name']) && isset($_POST['email'])){
 	//echo "Data Submitted Successful";
 	$name = $_POST['name'];
 	$email = $_POST['email'];
-	$sql = 'UPDATE crudtable SET name = :name, email = :email WHERE id = :id';
+	$sql = 'UPDATE members SET name = :name, email = :email WHERE id = :id';
 
 	$statement = $connection -> prepare($sql);
 	if ($statement-> execute([':name' => $name, ':email' => $email, ':id' => $id])) {
 
 		header("Location: /");
-		//$message = 'Data inserted successfull';
+		$message = 'Data inserted successfull';
 	}
 }
 ?>

@@ -5,7 +5,7 @@ ob_start();
 <html lang="en">
   <head>
 
-  	<title>Hello, world!</title>
+  	<title>CRUD</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

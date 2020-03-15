@@ -1,0 +1,38 @@
+[
+  {
+    "Number": 111111,
+    "Balance": 12,
+    "Label": "Salary",
+    "Owner": 11
+  },
+  {
+    "Number": 222222,
+    "Balance": 12,
+    "Label": "Savings",
+    "Owner": 22
+  },
+  {
+    "Number": 333333,
+    "Balance": 12,
+    "Label": "Travel",
+    "Owner": 22
+  },
+  {
+    "Number": 42,
+    "Balance": 12,
+    "Label": "Secret",
+    "Owner": 42
+  },
+  {
+    "Number": 0,
+    "Balance": 123,
+    "Label": "asmara",
+    "Owner": 12345
+  },
+  {
+    "Number": 0,
+    "Balance": 100,
+    "Label": "milk",
+    "Owner": 100
+  }
+]
