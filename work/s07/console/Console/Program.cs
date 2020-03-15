@@ -11,9 +11,7 @@ namespace Console
 
         static void Main(string[] args)
         {
-
             List<Accounts> accounts = JsonConvert.DeserializeObject<List<Accounts>>(File.ReadAllText(@"c:\account.json"));
-
             int choice = 0;
             do
             {
